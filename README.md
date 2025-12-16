@@ -17,11 +17,12 @@ A full-stack Todo List application with a visual UI and a conversational AI agen
 - OpenAI API key
 
 ### Frontend
-cd frontend
-npm install
-npm start
+- cd frontend
+- npm install
+- npm start
 
 ### Backend
-cd backend
-pip install -r requirements.txt
-uvicorn main.py --reload
+- cd backend
+- pip install -r requirements.txt
+- uvicorn main.py --reload
+
