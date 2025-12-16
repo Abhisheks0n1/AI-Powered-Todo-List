@@ -1,0 +1,22 @@
+User: Hi! Add a task to walk the dog tomorrow morning with medium priority.
+
+Agent: Task added: "walk the dog" (Medium priority, due: 2025-12-15).
+
+User: Also, remind me to buy groceries on Friday, high priority.
+
+Agent: Task added: "buy groceries" (High priority, due: 2025-12-19).
+
+User: Show me my high priority tasks.
+
+Agent: Here are your high priority tasks:
+- buy groceries (due: 2025-12-19, incomplete)
+
+User: Mark "walk the dog" as done and delete "buy groceries".
+
+Agent: "walk the dog" marked as complete.
+"buy groceries" deleted.
+
+User: List all tasks.
+
+Agent: Your tasks:
+- walk the dog (Medium, due: 2025-12-15, complete)
