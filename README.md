@@ -16,16 +16,12 @@ A full-stack Todo List application with a visual UI and a conversational AI agen
 - Python 3.10+ (for backend)
 - OpenAI API key
 
-### Backend
-```bash
-cd backend
-pip install -r requirements.txt
-cp .env.example .env  # Add your OPENAI_API_KEY
-uvicorn main.py --reload
-
-
 ### Frontend
-```bash
 cd frontend
 npm install
 npm start
+
+### Backend
+cd backend
+pip install -r requirements.txt
+uvicorn main.py --reload
